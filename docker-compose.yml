@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  blackd:
+    image: williamjackson/blackd
+    build: .
+    ports:
+      - 45484:45484
