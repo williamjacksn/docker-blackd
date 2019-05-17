@@ -10,4 +10,4 @@ ENTRYPOINT ["/usr/local/bin/blackd", "--bind-host", "0.0.0.0"]
 
 LABEL maintainer=william@subtlecoolness.com \
       org.label-schema.schema-version=1.0 \
-      org.label-schema.version=18.9b0
+      org.label-schema.version=19.3b0
