@@ -1,9 +1,23 @@
-# Black: The uncompromising Python code formatter
+# docker-blackd
 
-This Docker image provides the [`blackd`](https://black.readthedocs.io/en/stable/blackd.html) HTTP server.
+A Docker image for [psf/black#blackd][a].
 
-    docker container run -p 45484:45484 --name blackd williamjackson/blackd
+[a]: https://github.com/psf/black#blackd
 
-or
+```sh
+docker image pull williamjackson/blackd
+```
 
-    docker-compose up blackd
+## Available tags
+
+* `latest` &rarr; `19.10b0`
+* `19.3b0`
+* `18.9b0`
+
+## Usage
+
+```sh
+docker container run \
+    -p 45484:45484 \
+    williamjackson/blackd
+```
