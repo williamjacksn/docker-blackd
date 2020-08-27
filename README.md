@@ -8,12 +8,6 @@ A Docker image for [psf/black#blackd][a].
 docker image pull williamjackson/blackd
 ```
 
-## Available tags
-
-* `latest` &rarr; `19.10b0`
-* `19.3b0`
-* `18.9b0`
-
 ## Usage
 
 ```sh
