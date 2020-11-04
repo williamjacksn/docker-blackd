@@ -1,8 +1,7 @@
-version: '3'
+version: '3.8'
 
 services:
   blackd:
-    image: williamjackson/blackd
-    build: .
+    image: ghcr.io/williamjacksn/blackd
     ports:
       - 45484:45484
