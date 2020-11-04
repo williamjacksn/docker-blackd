@@ -5,7 +5,7 @@ A Docker image for [psf/black#blackd][a].
 [a]: https://github.com/psf/black#blackd
 
 ```sh
-docker image pull williamjackson/blackd
+docker image pull ghcr.io/williamjacksn/blackd
 ```
 
 ## Usage
@@ -13,5 +13,5 @@ docker image pull williamjackson/blackd
 ```sh
 docker container run \
     -p 45484:45484 \
-    williamjackson/blackd
+    ghcr.io/williamjacksn/blackd
 ```
