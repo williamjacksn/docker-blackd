@@ -8,6 +8,10 @@ A Docker image for [psf/black#blackd][a].
 docker image pull ghcr.io/williamjacksn/blackd
 ```
 
+This image is also available [on Docker Hub][b] as `williamjackson/blackd`.
+
+[b]: https://hub.docker.com/r/williamjackson/blackd
+
 ## Usage
 
 ```sh
